@@ -15,10 +15,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    if(true){
-      <script type="text/javascript" class="optanon-category-C0004" href="./js/farber.js"></script>
-  }
-}
+    if (typeof OnetrustActiveGroups !== "undefined" && OnetrustActiveGroups.includes("C0004")) {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "./js/farber.js";
+      document.head.appendChild(script);
+    }
+  });
 </script>
 
   
