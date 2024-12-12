@@ -3,7 +3,44 @@
 
 <head>
 
+  <script type="text/javascript" class="optanon-category-c0004" src="./js/farber.js" </script>
 
+<!-- OneTrust Cookies Consent Notice start for privacy-demo.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="019017c0-65b9-7f7b-9047-1ce80833de1e" ></script>
+<script type="text/javascript">
+    function getCookie(a) {
+        var b = "; " + document.cookie;
+        a = b.split("; " + a + "\x3d");
+        if (2 == a.length) return a.pop().split(";").shift()
+    }
+
+    function OptanonWrapper() {
+        // Select HTML elements and apply conditional display based on consent
+        var a = document.getElementsByClassName("gdpr-info-box")[0]; - 1 < window.OnetrustActiveGroups.indexOf(",C0004,") || (a.style.cssText = "display: flex; flex-direction: column");
+        var v = document.querySelector('#youtubeVideoDiv iframe'); -1 < window.OnetrustActiveGroups.indexOf(",C0004,") || (v.style.display = "none");
+        b = "OptanonAlertBoxClosed";
+        // Banner 'Accept All' CTA
+        var x = document.getElementById("onetrust-accept-btn-handler");
+        // Preference Center 'Accept All' and 'Save Settings'
+        var y = document.getElementById("accept-recommended-btn-handler"),
+            z = document.getElementsByClassName("save-preference-btn-handler onetrust-close-btn-handler")[0];
+        b = getCookie(b);
+        // Page reload after consent confirmed
+        !b && a && x.addEventListener("click",
+            function() {
+                location.reload()
+            });
+        y && y.addEventListener("click", function() {
+            location.reload()
+        });
+        z.addEventListener("click", function() {
+            location.reload()
+        })
+    };
+</script>
+<!-- OneTrust Cookies Consent Notice end for privacy-demo.com -->
+
+  <script type="text/javascript" class="optanon-category-c0004" src="./js/farber.js" </script>
   
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -12,17 +49,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WQX9T5W4');</script>
 <!-- End Google Tag Manager -->
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    if (typeof OnetrustActiveGroups !== "undefined" && OnetrustActiveGroups.includes("C0004")) {
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "./js/farber.js";
-      document.head.appendChild(script);
-    }
-  });
-</script>
 
   
   <meta charset="UTF-8">
