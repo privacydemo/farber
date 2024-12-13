@@ -3,8 +3,47 @@
 
 <head>
 
-<script type="text/plain" class="optanon-category-C0004" src="./js/farber.js"> </script>
-  
+  <script type="text/plain" class="optanon-category-C0004" src="./js/farber.js"> </script>
+
+<!-- OneTrust Cookies Consent Notice start for privacy-demo.com -->
+<!-- OneTrust Cookies Consent Notice start for privacy-demo.com -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/019017c0-65b9-7f7b-9047-1ce80833de1e/OtAutoBlock.js" ></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="019017c0-65b9-7f7b-9047-1ce80833de1e" ></script>
+<script type="text/javascript">
+    function getCookie(a) {
+        var b = "; " + document.cookie;
+        a = b.split("; " + a + "\x3d");
+        if (2 == a.length) return a.pop().split(";").shift()
+    }
+
+    function OptanonWrapper() {
+        // Select HTML elements and apply conditional display based on consent
+        var a = document.getElementsByClassName("gdpr-info-box")[0]; - 1 < window.OnetrustActiveGroups.indexOf(",C0004,") || (a.style.cssText = "display: flex; flex-direction: column");
+        var v = document.querySelector('#youtubeVideoDiv iframe'); -1 < window.OnetrustActiveGroups.indexOf(",C0004,") || (v.style.display = "none");
+        b = "OptanonAlertBoxClosed";
+        // Banner 'Accept All' CTA
+        var x = document.getElementById("onetrust-accept-btn-handler");
+        // Preference Center 'Accept All' and 'Save Settings'
+        var y = document.getElementById("accept-recommended-btn-handler"),
+            z = document.getElementsByClassName("save-preference-btn-handler onetrust-close-btn-handler")[0];
+        b = getCookie(b);
+        // Page reload after consent confirmed
+        !b && a && x.addEventListener("click",
+            function() {
+                location.reload()
+            });
+        y && y.addEventListener("click", function() {
+            location.reload()
+        });
+        z.addEventListener("click", function() {
+            location.reload()
+        })
+    };
+</script>
+<!-- OneTrust Cookies Consent Notice end for privacy-demo.com -->
+
+  <script type="text/plain" class="optanon-category-C0004" src="./js/farber.js"> </script>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -13,7 +52,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WQX9T5W4');</script>
 <!-- End Google Tag Manager -->
 
-  
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
@@ -25,7 +64,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQX9T5W4"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  
   <!-- Header -->
   <section id="header">
     <div class="header container">
@@ -53,42 +91,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Header -->
 
 
- <!-- Hero Section -->
-<section id="hero">
-  <div class="hero container">
-    <h1>Hello,</h1>
-    <h1>Welcome to</h1>
-    <h1>Husky Facts</h1>
-    <a href="#projects" type="button" class="cta">Cutie Patooties</a>
-    
-    <!-- YouTube Video Section -->
-    <div id="youtubeVideoDiv" style="height: 20em;">
-      <!-- CONTEXTUAL CONSENT / Placeholder DIV -->
-      <div class="gdpr-info-box js-data-gdpr-not-available-placeholder" style="display: none;">
-        <div id="ot-warning-text">
-          <p class="title">We're sorry, this content is unavailable.</p>
-          <p class="desc">To improve your experience, make sure Functional cookies are enabled.</p>
-        </div>
-        <div id="ot-settings-btn">
-          <a class="btn btn-tertiary" onclick="OneTrust.ToggleInfoDisplay()">Update your cookie settings</a>
-        </div>
-      </div>
-      
-      <!-- YouTube Embed -->
-      <iframe 
-        width="560" 
-        height="315" 
-        class="optanon-category-C0004 embed-responsive-item" 
-        src="https://www.youtube-nocookie.com/embed/o-YBDTqX_ZU?si=4wXNtL3IdTm1IgXS" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-      </iframe>
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>Welcome to <span></span></h1>
+        <h1>Husky Facts <span></span></h1>
+        <a href="#projects" type="button" class="cta">Cutie Patooties</a>
+       <p></p>
+       <div id="youtubeVideoDiv" style="height: 20em">
+  <!-- CONTEXTUAL CONSENT / placeholder DIV -->
+  <div class="gdpr-info-box js-data-gdpr-not-available-placeholder" style="display: none;">
+    <div id="ot-warning-text">
+      <p class="title">We're sorry, this content is unavailable.</p>
+      <p class="desc">To improve your experience, make sure Functional cookies are enabled.</p>
+    </div>
+    <div id="ot-settings-btn">
+      <a class="btn btn-tertiary" onclick="OneTrust.ToggleInfoDisplay()">Update your cookie settings</a>
     </div>
   </div>
-</section>
-<!-- End Hero Section -->
+       <iframe width="560" height="315" class="optanon-category-C0004 embed-responsive-item" src="https://www.youtube-nocookie.com/embed/o-YBDTqX_ZU?si=4wXNtL3IdTm1IgXS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+       </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
 
   <!-- Service Section -->
   <section id="services">
@@ -106,13 +134,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
   <!-- End Service Section -->
 
-<!-- Projects Section -->
-<section id="projects">
-  <h1>Dog Park</h1>
-  <script src="bouncing-pictures.js"></script>
-</section>
-<!-- End Projects Section -->
+  <!-- Projects Section -->
+  <section id="projects">
 
+  </section>
+  <!-- End Projects Section -->
 
   <!-- About Section -->
   <section id="about">
@@ -146,7 +172,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
           <div class="contact-info">
             <h1>Address</h1>
-            <h2>Chicago, Illinois</h2>
+            <h2>Fatikchhari, Chittagong, Bangladesh</h2>
           </div>
         </div>
       </div>
