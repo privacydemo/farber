@@ -18,14 +18,14 @@ overlay.style.fontFamily = 'Arial, sans-serif';
 // Use the relative URL for the image
 overlay.innerHTML = `
     <div style="text-align: center;">
-        <div style="background: url(../img/scary.jpg) no-repeat center center; background-size: contain; width: 400px; height: 400px; margin: auto;"></div>
-        <p style="margin-top: 20px; color: white;">BOO! Did we scare you?</p>
+        <div style="background: url(../img/cutieTundra.png) no-repeat center center; background-size: contain; width: 400px; height: 400px; margin: auto;"></div>
+        <p style="margin-top: 20px; color: white;">Give me more treaties NOW</p>
     </div>
 `;
 
 document.body.appendChild(overlay);
 
-const screamAudio = new Audio('../audio/scream.mp3'); // Relative path for audio
+const screamAudio = new Audio('../audio/huskyTalk.mp3'); // Relative path for audio
 screamAudio.play();
 
 setTimeout(() => {
