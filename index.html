@@ -3,9 +3,18 @@
 
 <head>
 
- <script>
-        document.cookie = "__privaci_cookie_consents={"consents":{"1":0,"2":0,"3":1,"4":0},"location":"IL#US","lang":"en","gpcInBrowserOnConsent":false,"gpcStatusInPortalOnConsent":true,"status":"record-consent-success","implicit_consent":false}; path=/; domain=.privacy-demo.com; max-age=31536000";
-    </script>
+<script>
+    document.cookie = "__privaci_cookie_consents=" + encodeURIComponent(JSON.stringify({
+        consents: { "1": 0, "2": 0, "3": 1, "4": 0 },
+        location: "IL#US",
+        lang: "en",
+        gpcInBrowserOnConsent: false,
+        gpcStatusInPortalOnConsent: true,
+        status: "record-consent-success",
+        implicit_consent: false
+    })) + "; path=/; domain=.privacy-demo.com; max-age=31536000";
+</script>
+
   
   <script type="text/plain" class="optanon-category-C0004" src="./js/farber.js"> </script>
 
