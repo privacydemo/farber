@@ -2,46 +2,6 @@
 <html lang="en">
 
 <head>
-
-<script
-  src="https://privacyportal.onetrust.com/consent-embedded-forms/consent-receipt-scripts/OtFormStub.js"
-  data-id="189faf29-e3fd-4234-8fc5-9ddb61e2a3b9"
-></script>
-
-<!-- OneTrust Cookies Consent Notice start for privacy-demo.com -->
-<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="019017c0-65b9-7f7b-9047-1ce80833de1e" ></script>
-<script type="text/javascript">
-    function getCookie(a) {
-        var b = "; " + document.cookie;
-        a = b.split("; " + a + "\x3d");
-        if (2 == a.length) return a.pop().split(";").shift()
-    }
-
-    function OptanonWrapper() {
-        // Select HTML elements and apply conditional display based on consent
-        var a = document.getElementsByClassName("gdpr-info-box")[0]; - 1 < window.OnetrustActiveGroups.indexOf(",C0004,") || (a.style.cssText = "display: flex; flex-direction: column");
-        var v = document.querySelector('#youtubeVideoDiv iframe'); -1 < window.OnetrustActiveGroups.indexOf(",C0004,") || (v.style.display = "none");
-        b = "OptanonAlertBoxClosed";
-        // Banner 'Accept All' CTA
-        var x = document.getElementById("onetrust-accept-btn-handler");
-        // Preference Center 'Accept All' and 'Save Settings'
-        var y = document.getElementById("accept-recommended-btn-handler"),
-            z = document.getElementsByClassName("save-preference-btn-handler onetrust-close-btn-handler")[0];
-        b = getCookie(b);
-        // Page reload after consent confirmed
-        !b && a && x.addEventListener("click",
-            function() {
-                location.reload()
-            });
-        y && y.addEventListener("click", function() {
-            location.reload()
-        });
-        z.addEventListener("click", function() {
-            location.reload()
-        })
-    };
-</script>
-<!-- OneTrust Cookies Consent Notice end for privacy-demo.com -->
     
 <script>
     document.cookie = "__privaci_cookie_consents=" + encodeURIComponent(JSON.stringify({
